@@ -34,10 +34,10 @@
 
 
 
-# s, p = map(int, input().split())
+# s, p = map(int, input('Введите сумму и произведение чисел через пробел: ').split())
 # x = (s-int((s**2-4*p)**0.5))//2
 # y = (s+int((s**2-4*p)**0.5))//2
-# print(x, y)
+# print(f'{x}, {y}')
 
 
 
